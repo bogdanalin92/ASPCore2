@@ -16,10 +16,7 @@
             Trying the _Emphasis_ code from html
           </section>
         </div>
-        Id | No | Name
-        -- | -- | --
-        1. | 1001 | This is the first element
-        2. | 1002 | - [x] Must add more code in here
+        
       </section>
     </div>
     <div id="footer_wrap" class="outer">
@@ -27,4 +24,7 @@
       </footer>
     </div>
   </body>
-
+Id | No | Name
+-- | -- | --
+1. | 1001 | This is the first element
+2. | 1002 | - [x] Must add more code in here
