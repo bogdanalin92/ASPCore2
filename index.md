@@ -1,8 +1,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="/ASPCore2/css/primestyle.css">
   </head>
-  <body>
-    <div id="header_wrap" class="outer">
+<div id="header_wrap" class="outer">
       <header class="inner">
         <h1 id="project_title">ASPCore2</h1>
       </header>
@@ -15,16 +14,11 @@
             Trying the _Emphasis_ code from html
           </section>
         </div>
-        
+      
+Id | No | Name
+------------ | ------------- | -------------
+1 | 1001 | Something
 
-        
-      </section>
-      Id | No | Name
-      ------------ | ------------- | -------------
-      1 | 1001 | Something
+</section>
     </div>
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-      </footer>
-    </div>
-  </body>
+
