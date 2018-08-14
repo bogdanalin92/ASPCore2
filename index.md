@@ -3,7 +3,4 @@
 > # For this time being
 > Try to show the live stream from youtube
 
-<body>
-<iframe src="https://gaming.youtube.com/user/bogdanalin92/live" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-</body>
-  
+<iframe width="420" height="236" src="https://www.youtube.com/embed/bziZbNi7QDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
