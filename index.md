@@ -1,4 +1,3 @@
-<html lang="en-US" markdown=1>
   <head>
     <link rel="stylesheet" type="text/css" href="/ASPCore2/css/primestyle.css">
     
@@ -30,4 +29,4 @@
       </footer>
     </div>
   </body>
-</html>
+
