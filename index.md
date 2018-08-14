@@ -16,12 +16,12 @@
           </section>
         </div>
         
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
         
       </section>
+      Id | No | Name
+      ------------ | ------------- | -------------
+      1 | 1001 | Something
     </div>
     <div id="footer_wrap" class="outer">
       <footer class="inner">
