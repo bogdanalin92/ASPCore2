@@ -1,7 +1,7 @@
 <html lang="en-US" markdown=1>
   <head>
     <link rel="stylesheet" type="text/css" href="/ASPCore2/css/primestyle.css">
-    <title>ASPCore2</title>
+    
   </head>
   <body>
     <div id="header_wrap" class="outer">
