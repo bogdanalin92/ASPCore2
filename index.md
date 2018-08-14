@@ -1,24 +1,10 @@
-  <head>
-    <link rel="stylesheet" type="text/css" href="/ASPCore2/css/primestyle.css">
-  </head>
-<div id="header_wrap" class="outer">
-      <header class="inner">
-        <h1 id="project_title">ASPCore2</h1>
-      </header>
-    </div>
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Here will be the content.</h1>
-        <div>
-          <section>
-            Trying the _Emphasis_ code from html
-          </section>
-        </div>
-      
+# This will be a structured article
+
+'For the first post i will show a time chart'
+
+
 Id | No | Name
 ------------ | ------------- | -------------
 1 | 1001 | Something
 
-</section>
-    </div>
 
