@@ -1,6 +1,6 @@
 # This will be a structured article
 
-'For the first post i will show a time chart'
+`For the first post i will show a time chart`
 
 
 Id | No | Name
