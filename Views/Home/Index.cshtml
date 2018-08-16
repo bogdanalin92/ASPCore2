@@ -1,0 +1,38 @@
+@model ASPCore2.ViewModels.HomeIndexViewModel
+<html>
+<style>
+    .gradient {
+        background: linear-gradient(
+            to bottom,
+            #fff5e6,
+            #feb236,
+            #ff7b25,
+            #d64161,
+            #6b5b95,
+            #1a0f00
+        );
+    }
+</style>
+    <head>
+        <meta charset="utf-8" />
+        <title>Index</title>
+    </head>
+    <body class="gradient">
+        <h1>Table of restaurants</h1>
+        <h2>@Model.CurrentMessage</h2>
+        <table style="border-collapse: collapse;">
+            <tr><td>Id</td><td>Name</td></tr>
+            @foreach (var restaurant in Model.Restaurants)
+            {
+                <tr>
+                    <td style="border: 1px solid black;">@restaurant.Id</td>
+                    <td style="border: 1px solid black;">@restaurant.Name</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id=@restaurant.Id>More</a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <a asp-action="Create">Add</a>
+    </body>
+</html>
