@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using ASPCore2.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ASPCore2.Services
 {
@@ -32,6 +33,15 @@ namespace ASPCore2.Services
             restaurant.Id = _restaurants.Max(r => r.Id) + 1;
             _restaurants.Add(restaurant);
             return restaurant;
+        }
+
+        public Restaurant Update(Restaurant restaurant)
+        {
+            Restaurant oldRestaurant = _restaurants.First(x => x.Id == restaurant.Id);
+            _restaurants.Remove(oldRestaurant);
+            _restaurants.Add(restaurant);
+            return restaurant;
+            //.State = EntityState.Modified;
         }
 
         List<Restaurant> _restaurants;
