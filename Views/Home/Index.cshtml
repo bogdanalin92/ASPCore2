@@ -1,5 +1,7 @@
-@model ASPCore2.ViewModels.HomeIndexViewModel
-<html>
+@model HomeIndexViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
 <style>
     .gradient {
         background: linear-gradient(
@@ -13,11 +15,7 @@
         );
     }
 </style>
-    <head>
-        <meta charset="utf-8" />
-        <title>Index</title>
-    </head>
-    <body class="gradient">
+    <div class="gradient">
         <h1>Table of restaurants</h1>
         <h2>@Model.CurrentMessage</h2>
         <table style="border-collapse: collapse;">
@@ -34,5 +32,8 @@
             }
         </table>
         <a asp-action="Create">Add</a>
-    </body>
-</html>
+</div>
+
+@section footer {
+    @DateTime.Now.Month
+}

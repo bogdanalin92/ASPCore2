@@ -37,6 +37,8 @@ namespace ASPCore2 {
         public IActionResult Create(){
             return View();
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(RestaurantEditModel model){
             if(ModelState.IsValid){
                 var newRestaurant = new Models.Restaurant();
