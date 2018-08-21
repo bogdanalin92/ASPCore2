@@ -1,5 +1,5 @@
+**[Go back to home](https://bogdanalin92.github.io/)**
 
-> # For this time being
-> Try to show the live stream from youtube
+#Start from the beggin
+##Teorie elementara ASP.Net Core 
 
-[Go back to home](https://bogdanalin92.github.io/)
