@@ -1,0 +1,11 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "amd",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true
+  },
+  "exclude": ["node_modules"]
+}
