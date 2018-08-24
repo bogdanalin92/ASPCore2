@@ -1,11 +1,11 @@
-import * as ko from "../lib/knockout/dist/knockout";
+import * as ko from "knockout";
 
 class WebMailViewModel {
     // Data
     folders: string[] = ["Inbox", "Archive", "Sent", "Spam"];
-    chosenFolderId: KnockoutObservable<string> = new ko.observable();
-    chosenFolderData: KnockoutObservable<Folder> = new ko.observable();
-    chosenMailData: KnockoutObservable<Mail> = new ko.observable();
+    chosenFolderId: KnockoutObservable<string> = ko.observable();
+    chosenFolderData: KnockoutObservable<Folder> = ko.observable();
+    chosenMailData: KnockoutObservable<Mail> = ko.observable();
     goToFolder: (folder: string) => void;
     goToMail: (mail: Mail) => void;
 
