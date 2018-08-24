@@ -14,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
+
 namespace ASPCore2
 {
     public class Startup
@@ -28,10 +29,16 @@ namespace ASPCore2
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
             services.AddSingleton<IGreeter, Greeter>();
             services.AddDbContext<ASPCore2DbContext>(options => options.UseSqlServer(_configuration.GetConnectionString("ASPCore2CS")));
             services.AddScoped<IRestaurantData, SqlRestaurantData>();
+            services.AddTransient<IMailService, MailService>();
             services.AddMvc();
+
         }
 
 
