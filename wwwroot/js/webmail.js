@@ -1,4 +1,4 @@
-define(["require", "exports", "~/lib/knockout/dist/knockout"], function (require, exports, ko) {
+define(["require", "exports", "../lib/knockout/dist/knockout"], function (require, exports, ko) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     class WebMailViewModel {
