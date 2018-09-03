@@ -53,7 +53,7 @@ namespace ASPCore2
             {
                 app.UseDeveloperExceptionPage();
             }
-            //app.UseRewriter(new RewriteOptions().AddRedirectToHttpsPermanent());
+
             app.UseStaticFiles();
 
             app.UseMvc(ConfigureRoutes);
