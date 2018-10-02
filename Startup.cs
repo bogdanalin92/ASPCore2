@@ -35,7 +35,7 @@ namespace ASPCore2
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddSingleton<IGreeter, Greeter>();
-            services.AddDbContext<ASPCore2DbContext>(options => options.UseSqlServer(_configuration.GetConnectionString("ASPCore2CS")));
+            //services.AddDbContext<ASPCore2DbContext>(options => options.UseSqlServer(_configuration.GetConnectionString("ASPCore2CS")));
             services.AddScoped<IRestaurantData, SqlRestaurantData>();
             services.AddTransient<IMailService, MailService>();
             services.AddMvc();
