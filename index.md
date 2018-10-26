@@ -8,7 +8,7 @@ Pentru inceput vom obtine de la urmatoarea adresa [https://www.microsoft.com/net
 
 # Schimbarile in C#
 
-Se porneste de la urmatorul program cu sintaxa versiunii 4
+## Se porneste de la urmatorul program cu sintaxa versiunii 4
 ```
 //Named arguments for clear initialization code
 using System.Collections.Generic;
