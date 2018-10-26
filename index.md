@@ -120,3 +120,21 @@ _**Forma redusa a codului de mai sus este urmatoarea**_
         products.FindAll(delegate (Product p) { return p.Price > 10; })
                 .ForEach(Console.WriteLine);
 ```
+### Separarea testarii de afisare cu Lambda (C#3)
+```
+foreach(Product product in products.Where(p => p.Price > 10))
+            {
+                Console.WriteLine(product);
+            }
+```
+Pentru lista urmatoare de produse,
+```
+		new Product(name: "WSStory", price: 9.99m),
+                new Product(name: "Humpty", price: 3.99m),
+                new Product(name: "C# In Deapth", price: 15.99m),
+                new Product(name: "WSStory HardCover", price: 10.29m)
+```
+avem urmatorul rezultat: 
+> C# In Deapth: 15,99
+
+> WSStory HardCover: 10,29
