@@ -92,3 +92,14 @@ public class Product
 	}
 	```
 	![graph2](/images/C1_12pg.png) 
+
+## Colectii de interogare
+
+Urmatorul cod arata cum in C# 1, trebuie sa folosesti o bucla, sa testezi fiecare element si sa afisezi cand este nevoie.
+
+
+> ArrayList products = **Product**.GetSampleProducts();
+> foreach(Product product in products) {
+> 	if(product.Price > 10m)
+>	{ Console.WriteLine(product); }
+> }
