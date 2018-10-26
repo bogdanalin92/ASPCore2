@@ -103,3 +103,13 @@ Urmatorul cod arata cum in C# 1, trebuie sa folosesti o bucla, sa testezi fiecar
 > 	if(product.Price > 10m)
 >	{ Console.WriteLine(product); }
 > }
+
+### Separarea testarii de afisare (C#2)
+```
+List<Product> products = Product.GetSampleProducts();
+Predicate<Product> test = delegate(Product p) { return p.Price > 10m; }
+List<Product> matches = products.FindAll(test);
+
+Action<Product> print = Console.WriteLine;
+matches.ForEach(print);
+```
