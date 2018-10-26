@@ -140,3 +140,17 @@ avem urmatorul rezultat:
 > WSStory HardCover: 10,29
 
 ![graph3](/images/SmartSelect_20181026-164835_miMind.jpg) 
+
+## Operatori standard de interogare LINQ
+Vom folosii urmatoarele exemple de secvente:
+```
+string[] words = {"zero", "one", "two", "three", "four"};
+int[] numbers = {0,1,2,3,4};
+```
+
+### A.1 Agregarea (Aggregation)
+Operatorii de agregare rezulta intr-o singura valoare in schimbul unei secvente.
+
+|Expresie|Rezultat|
+|--------|--------|
+|numbers.Sum()|10|
