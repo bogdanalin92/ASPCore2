@@ -138,3 +138,5 @@ avem urmatorul rezultat:
 > C# In Deapth: 15,99
 
 > WSStory HardCover: 10,29
+
+![graph3](/images/SmartSelect_20181026-164835_miMind.jpg) 
