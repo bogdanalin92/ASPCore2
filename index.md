@@ -91,4 +91,4 @@ public class Product
 		Console.WriteLine(product);
 	}
 	```
-	![graph2](/images/C1_12pg.png)
+	![graph2](/images/C1_12pg.png) 
