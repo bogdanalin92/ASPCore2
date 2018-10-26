@@ -75,11 +75,21 @@ public class Product
 		}
 	}
 	...
-	_ **List<Product> products = Product.GetSampleProducts();** _
-	products.Sort(new ProductNameComparer());
+	**List<Product> products = Product.GetSampleProducts();**
+	products.Sort(delegate(Product x, Product y){
+		return x.Name.CompareTo(y.Name);
+	});
 	foreach(Product product in products)
 	{
 		Console.WriteLine(product);
 	}
 	```
-  
+	### Am folosit IComparer<Product> pentru a crea o clasa de comparare a doua produse, si am folosit in metoda Sort ca parametru Comparison<Product> ce are ca parametrii doua obiecte Product.
+	
+  * Sortarea folosind Comparison<Product> din o expresie lambda
+	List<Product> products = Product.GetSampleProducts();
+	products.Sort((x,y) => x.Name.CompareTo(y.Name));
+	foreach(Product product in products)
+	{
+		Console.WriteLine(product);
+	}
