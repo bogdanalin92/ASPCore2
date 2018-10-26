@@ -12,11 +12,12 @@ Pentru inceput vom obtine de la urmatoarea adresa [https://www.microsoft.com/net
 
 * C# 1
   * Sorteaza un ArrayList folosing IComparer
-  > class ProductNameComparer : IComparer
-  > { public int Compare(object x, object y)
-  > { Product first = (Product)x; Product second = (Product)y;
-  > return first.Name.CompareTo(second.Name); }}
-  > ...
-  >
+    ```
+    class ProductNameComparer : IComparer
+    { public int Compare(object x, object y)
+    { Product first = (Product)x; Product second = (Product)y;
+    return first.Name.CompareTo(second.Name); }}
+    ...
+    ```
   * Some
   
