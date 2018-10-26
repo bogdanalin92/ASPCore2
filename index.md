@@ -42,7 +42,7 @@ public class Product
 ## Sortare si filtrare
 ### Sortarea in functie de versiunile de c#
 
-* C# 1
+* Urmatoarea listare implementeaza IComparer, dupa sorteaza lista si o afiseaza.
   * Sorteaza un ArrayList folosind IComparer
     ```
     class ProductNameComparer : IComparer
