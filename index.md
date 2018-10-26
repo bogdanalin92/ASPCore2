@@ -75,7 +75,7 @@ public class Product
 		}
 	}
 	...
-	**List<Product> products = Product.GetSampleProducts();**
+	_ **List<Product> products = Product.GetSampleProducts();** _
 	products.Sort(new ProductNameComparer());
 	foreach(Product product in products)
 	{
