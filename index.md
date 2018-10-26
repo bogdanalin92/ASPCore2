@@ -7,7 +7,7 @@
 Pentru inceput vom obtine de la urmatoarea adresa [https://www.microsoft.com/net/download](https://www.microsoft.com/net/download) kit-ul de instalarea a frameworkului .net.
 
 # Schimbarile in C#
-
+![](ASPCore2/20181026_105852.jpg)
 ## Se porneste de la urmatorul program cu sintaxa versiunii 4
 ```
 //Named arguments for clear initialization code
