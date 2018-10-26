@@ -47,7 +47,7 @@ public class Product
 ### Sortarea in functie de versiunile de c#
 
 * C# 1
-  * Sorteaza un ArrayList folosing IComparer
+  * Sorteaza un ArrayList folosind IComparer
     ```
     class ProductNameComparer : IComparer
     { 
@@ -65,5 +65,21 @@ public class Product
 			Console.WriteLine(product);
 		}
     ```
-  * Some
+  * Sortarea unei colectii List<Product> utilizand IComparer<Product>
+	```
+	class ProductNameComparer : **IComparer<Product>**
+	{
+		public int Compare(**Product x, Product y**)
+		{
+			return x.Name.CompareTo(y.Name);
+		}
+	}
+	...
+	**List<Product> products = Product.GetSampleProducts();**
+	products.Sort(new ProductNameComparer());
+	foreach(Product product in products)
+	{
+		Console.WriteLine(product);
+	}
+	```
   
