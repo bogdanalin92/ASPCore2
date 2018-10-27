@@ -153,4 +153,12 @@ Operatorii de agregare rezulta intr-o singura valoare in schimbul unei secvente.
 
 |Expresie|Rezultat|
 |--------|--------|
-|numbers.Sum()|10|
+|numbers.Sum()				|10						 |
+|numbers.Count()			|5 						 |
+|numbers.Average()			|2 						 |
+|numbers.LongCount(x=>x % 2 == 0)	|3 (as a **long**; there are three evene numbers)|
+|words.Min(word => word.Length)		|3 ("one" and "two")				 |
+|words.Max(word => word.Length)		|5						 |
+|numbers.Aggregate("seed",(current, item)=>current + item, result=> result.ToUpper()) |"SEED01234|
+
+
