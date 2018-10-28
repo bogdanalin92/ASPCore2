@@ -164,4 +164,5 @@ Operatorii de agregare rezulta intr-o singura valoare in schimbul unei secvente.
 ### A.2 Concatenation
 
 |||
+|-|-|
 |numbers.Concat(new[] {2,3,4,5,6})|0,1,2,3,4,2,3,4,5,6|
