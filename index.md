@@ -209,6 +209,12 @@ Fiecare element dintr-un tipe IGrouping\<,\> are o cheie si o secventa de elemen
 
 |Expresie|Rezultat|
 |---|---|
-|```
-```
-||
+|words.GroupBy(word => word.Length)|Key: 4; Sequence: "zero", "four"|
+|words.GroupBy(word => word.Length, word => word.ToUpper());| Key: 4; Sequence: "zero","four" ; Key: 3; Sequence: "one", "two"|
+
+### A.5 Exemple Joins
+
+|Expresie|Rezultat|
+|---|---|
+|names.GroupJoin(colors, name => name[0], color => color[0],(name,matches) => name + ": " + string.Join("/", matches.ToArray()))|"Robin: Red","Bob: Blue/Beige"|
+
