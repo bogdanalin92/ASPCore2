@@ -209,5 +209,6 @@ Fiecare element dintr-un tipe IGrouping\<,\> are o cheie si o secventa de elemen
 
 |Expresie|Rezultat|
 |---|---|
-|'''
-'''||
+|```
+```
+||
