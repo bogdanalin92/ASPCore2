@@ -203,4 +203,11 @@ where user.Name.StartWith("Tim")
 select user;
 ```
 
+### A.4 Exemple GroupBy 
+___
+Fiecare element dintr-un tipe IGrouping\<,\> are o cheie si o secventa de elemente ce se potrivesc cu cheia. Ordinea in care grupurile sunt returnate este ordinea in care cheile lor sunt descoperite.
 
+|Expresie|Rezultat|
+|---|---|
+|'''
+'''||
