@@ -181,6 +181,7 @@ objcet[] notAllStrings = {"Number", "at", "the", "end", 5};
 |words.ToLookup(word=>word[0])|Lookup contents: 'z':"zero", 'o': "one", 't':"two", "three"|
 |words.ToDictionary(word => word[0])|Exceptie: poate sa fie doar o intrare pe cheie, cedeaza la 't'|
 	
-*ToDictionary* si *ToLookup* primesc un delegat ca sa obtina cheiea pentru orice element. --
+*ToDictionary* si *ToLookup* primesc un delegat ca sa obtina cheiea pentru orice element.
 
-*ToLookup* returneaza un tip corespunzator cu ILookup<,>. Un *lookup* este ca un dictionar unde valoarea asociata cu o cheie nu este doar un element, dar o secventa de elemente.
+*ToLookup* returneaza un tip corespunzator cu ILookup<,>. 
+Un *lookup* este ca un dictionar unde valoarea asociata cu o cheie nu este doar un element, dar o secventa de elemente.
