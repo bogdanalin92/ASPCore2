@@ -171,7 +171,7 @@ Operatorii de agregare rezulta intr-o singura valoare in schimbul unei secvente.
 
 ```
 object[] allStrings = {"These","are","all","strings"};
-objcet[] notAllStrings = {"Number", "at", "the", "end", 5};
+object[] notAllStrings = {"Number", "at", "the", "end", 5};
 ```
 
 |Expresie|Rezultat|
