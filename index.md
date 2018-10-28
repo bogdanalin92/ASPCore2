@@ -185,3 +185,8 @@ objcet[] notAllStrings = {"Number", "at", "the", "end", 5};
 
 *ToLookup* returneaza un tip corespunzator cu ILookup<,>. 
 Un *lookup* este ca un dictionar unde valoarea asociata cu o cheie nu este doar un element, dar o secventa de elemente.
+
+Lookups este in general folosit cand sunt asteptate sa apara chei duplicat ca facand parte dintr-o operatie normala, unde un dictionar ridica o exceptie.
+
+
+Putem sa fortam o expresie de interogare ca tipul de la compilare sa fie *IEnumarable*'<'*User*'>'* in schimbul *IQueryble<User>*.
