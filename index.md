@@ -218,3 +218,34 @@ Fiecare element dintr-un tipe IGrouping\<,\> are o cheie si o secventa de elemen
 |---|---|
 |names.GroupJoin(colors, name => name[0], color => color[0],(name,matches) => name + ": " + string.Join("/", matches.ToArray()))|"Robin: Red","Bob: Blue/Beige"|
 
+___
+# Introducere in LINQ
+
+## Expresii de interogare si in-process queries
+
+* Filtrarea unei colectii
+   ```
+   List<Product> products = Product.GetSampleProducts();
+   var filtered = from Product p in products
+   		where p.Price > 10
+		select p;
+   foreach(Product product in filtered)
+   {
+   	Console.WriteLine(product);
+   }
+   ```
+   
+   S-a folosit aici scrierea implicita a tipului de variabila locala, pentru a da voie compilatorului sa substraga timpul variabilei din valoarea atribuita initial. In acest caz *filtered* este *IEnumerable\<Product\>*
+* Inerogarea unui fisier XML
+   Se presupune ca avem urmatorul fisier XML:
+   ```
+   <?xml version="1.0"?>
+   <Data>
+   	<Products>
+		<Product Name="" Price="" SupplierID=""/>
+	</Products>
+	
+	<Suppliers>
+	</Suppliers>
+   </Data>
+   ```
