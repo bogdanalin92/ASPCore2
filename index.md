@@ -2,7 +2,10 @@
 
 ### Cuprins
 1. [Operatori standard de interogare LINQ](#operatori-standard-de-interogare-linq)
-	- [Introducere in LINQ](#introducere-in-linq)
+	- [A.1 Agregarea](#a1-agregarea-aggregation)
+	- [A.2 Concatenarea](#a2-concatenation)
+2. [Introducere in LINQ](#introducere-in-linq)
+3. [Fundamentele de baza](#fundamentele-de-baza)
 
 # Start from the beggin
 
