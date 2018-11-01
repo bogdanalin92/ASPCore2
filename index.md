@@ -1,4 +1,5 @@
 **[Go back to home](https://bogdanalin92.github.io/)**
+[Operatori standard de interogare LINQ](#operatori-standard-de-interogare-linq)
 
 # Start from the beggin
 
