@@ -249,3 +249,20 @@ ___
 	</Suppliers>
    </Data>
    ```
+
+
+
+# Fundamentele de baza
+___
+## Delegates
+#### (Functie la un pointer)
+
+Un tip delegat este o singura interfata a unei metode, si o instanta delegat ca un obiect ce implementeaza acea interfata. Delegate este folosit deobicei atunci cand codul care vrea sa execute actiunile nu cunoaste detaliile privind acele actiuni.
+
+Ca un delegat sa faca ceva, trebuie sa indeplinim urmatoarele puncte:
+   * Tipul delegatului trebuie sa fie declarat.
+   * Codul ce va fii executat trebuie sa fie intr-o metoda.
+   * O instanta a delegatului trebuie creata.
+   * Instanta delegatului trebuie sa fie invocata (*invoked*)
+
+
