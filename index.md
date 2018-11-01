@@ -1,5 +1,5 @@
 <head>
-	<link rel=”stylesheet” href=”/site.css” type=”text/css”>
+	<link rel=”stylesheet” href=”/site.css” type=”text/css” />
 </head>
 
 <a href="#cuprins" class="gotop">Top</a>
