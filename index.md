@@ -1,4 +1,6 @@
-<link rel=”stylesheet” href=”/site.css” type=”text/css”>
+<head>
+	<link rel=”stylesheet” href=”/site.css” type=”text/css”>
+</head>
 
 <a href="#cuprins" class="gotop">Top</a>
 **[Go back to home](https://bogdanalin92.github.io/)**
