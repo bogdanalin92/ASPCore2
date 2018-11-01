@@ -1,5 +1,8 @@
 **[Go back to home](https://bogdanalin92.github.io/)**
-[Operatori standard de interogare LINQ](#operatori-standard-de-interogare-linq)
+
+### Cuprins
+1. [Operatori standard de interogare LINQ](#operatori-standard-de-interogare-linq)
+	- [Introducere in LINQ](#introducere-in-linq)
 
 # Start from the beggin
 
