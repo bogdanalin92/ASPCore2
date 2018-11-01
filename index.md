@@ -1,18 +1,5 @@
-<style>
-.gotop {
-	position:fixed;
-	bottom:0;
-	margin-left:-120px;
-	border: none; 
-    	outline: none; 
-    	background-color: red; 
-    	color: white; 
-    	cursor: pointer; 
-    	padding: 15px; 
-    	border-radius: 10px; 
-    	font-size: 18px; 
-	}
-</style>
+<link rel=”stylesheet” href=”/site.css” type=”text/css”>
+
 <a href="#cuprins" class="gotop">Top</a>
 **[Go back to home](https://bogdanalin92.github.io/)**
 
