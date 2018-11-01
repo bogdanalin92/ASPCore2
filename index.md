@@ -265,4 +265,5 @@ Ca un delegat sa faca ceva, trebuie sa indeplinim urmatoarele puncte:
    * O instanta a delegatului trebuie creata.
    * Instanta delegatului trebuie sa fie invocata (*invoked*)
 
+Un tip delegat este o lista de tipuri de parametrii si un tip de returnat. Specifica ce fel de actiune poate fi reprezentat de o instanta: ``` delegate void StringProcessor(string input); ```
 
