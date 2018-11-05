@@ -3,6 +3,7 @@
 		position:fixed;
 		bottom:0;
 		margin-left:-120px;
+		margin-bottom: 20px;
 		border: none; 
     outline: none; 
     background-color: red; 
