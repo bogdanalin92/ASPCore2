@@ -1,7 +1,7 @@
 <style>
-   body{
-	background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%); !important
-	}
+  #main_content_wrap {
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(251,233,169,1) 0%, rgba(246,158,29,0.93) 90% ) !important;
+  }
 	.gotop {
 		position:fixed;
 		bottom:0;
