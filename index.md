@@ -1,4 +1,7 @@
 <style>
+   .body{
+	background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%); !important
+	}
 	.gotop {
 		position:fixed;
 		bottom:0;
